@@ -1,14 +1,3 @@
-var express = require("express");
-var app = express();
-
-app.get("/", function(req, res){
-    res.send(index.html);
-});
-
-app.get("/messages", function(req, res){
-    res.send(messages.html);
-});
-
 var clicks = 0;
 
 var image = document.querySelector("#cake-image");
@@ -26,5 +15,3 @@ function onClick() {
 		window.location = "messages.html";
 	}
 }
-
-app.listen(process.env.PORT, process.env.IP);
