@@ -15,3 +15,9 @@ function onClick() {
 		window.location = "messages.html";
 	}
 }
+
+function play(encodedMP3) {
+  // Play the audio on the server
+  var audio = new Audio('/birthday.mp3');
+  audio.play();
+}
