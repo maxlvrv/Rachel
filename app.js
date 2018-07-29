@@ -12,6 +12,6 @@ app.get("/messages", function(req, res){
     res.sendFile(path.join(__dirname + '/public/messages.html'));
 });
 
-app.listen(3000, process.env.IP, function(){
+app.listen(process.env.PORT, process.env.IP, function(){
     console.log("Birthday app has started");
 });
