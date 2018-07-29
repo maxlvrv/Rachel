@@ -1,19 +1,11 @@
 {
-  "name": "birthdaycard",
+  "name": "birthday",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jace-ys/birthdaycard.git"
-  },
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jace-ys/birthdaycard/issues"
-  },
-  "homepage": "https://github.com/jace-ys/birthdaycard#readme"
+  "license": "ISC"
 }
