@@ -6,7 +6,6 @@ var headerText = document.querySelector("#subheader-text");
 
 function onClick() {
 	clicks++;
-	console.log(clicks);
 	if (clicks === 1) {
 		image.src = "./images/rachel.png";
 		headerText.innerHTML = "My birthday wish is..";
