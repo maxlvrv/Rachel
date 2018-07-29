@@ -1,3 +1,10 @@
+var express = require("express");
+var app = express();
+
+app.get("/", function(req, res){
+    res.send(index.html);
+});
+
 var clicks = 0;
 
 var image = document.querySelector("#cake-image");
