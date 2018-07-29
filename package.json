@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/jace-ys/birthdaycard/issues"
   },
-  "homepage": "https://github.com/jace-ys/birthdaycard#readme"
+  "homepage": "https://github.com/jace-ys/birthdaycard#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }
