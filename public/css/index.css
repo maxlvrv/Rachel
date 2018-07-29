@@ -1,0 +1,33 @@
+body {
+	font-family: 'Eczar';
+}
+
+.vertical-center {
+	background-image: url(../images/happy-birthday.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+}
+
+.contents {
+	
+}
+
+.subheader {
+	font-size: 3rem;
+	font-weight: 700;
+	color: #ff0000;
+}
+
+#cake-image {
+	width: 10rem;
+	height: 10rem;
+}
+
+#header-text {
+	height: 17.5rem;
+	margin-left: 30rem;
+}
