@@ -9,7 +9,7 @@ function onClick() {
 	console.log(clicks);
 	if (clicks === 1) {
 		image.src = "./images/rachel.png";
-		headerText.innerHTML = "Click me for a birthday wish!";
+		headerText.innerHTML = "My birthday wish is..";
 	}
 	else {
 		window.location = "messages.html";
