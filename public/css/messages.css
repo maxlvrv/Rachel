@@ -14,11 +14,16 @@ body {
 
 .contents {
 	max-width: 700px;
-	margin-left: 25rem;
+	margin-left: 22rem;
 }
 
 .note {
-	height: 150px;
-	border: 1px solid black;
+	height: 200px;
+	/*border: 1px solid black;*/
 	margin: 0;
+}
+
+.message {
+	height: 200px;
+	width: 300px;
 }
